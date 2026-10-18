@@ -6,10 +6,3 @@ o.window("^chrome-nngceckbapebfimnlniiiahkandclblb-.*$", {
   float = true,
   center = true,
 })
-
--- Chromium can also expose extension prompts with its normal browser class.
-o.window({ class = "^[Cc]hromium$", title = "^Bitwarden( - Chromium)?$" }, {
-  no_screen_share = true,
-  float = true,
-  center = true,
-})
